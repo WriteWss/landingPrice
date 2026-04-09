@@ -118,7 +118,7 @@ header #brand:before {
 
   border-radius: 60px;
 
-  z-index: -1;
+  z-index: 2;
 
 }
 
@@ -126,11 +126,11 @@ header img {
 
   position: absolute;
 
-  width: 600px;
+  width: 400px;
 
-  top: 200px;
+  top:  250px;
 
-  left: 300px;
+  left: 100px;
 
 }
 
@@ -142,9 +142,9 @@ header #headline {
 
   text-align: left;
 
-  left: 20%;
+  left: 15%;
 
-  top: 45%;
+  top: 35%;
 
 }
 
