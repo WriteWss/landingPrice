@@ -366,6 +366,10 @@ label {
 
 }
 
+.text2 {
+  display: none;
+}
+
 .switch {
 
   position: relative;
