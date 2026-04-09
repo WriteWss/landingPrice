@@ -366,10 +366,6 @@ label {
 
 }
 
-.text2 {
-  display: none;
-}
-
 .switch {
 
   position: relative;
@@ -504,7 +500,4 @@ input:checked + .slider:before {
 
 }
 
-{
-futer {color: black};
-}
 
