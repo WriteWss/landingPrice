@@ -46,7 +46,7 @@ header .info p {
 
   text-align: justify;
 
-  top: -50px;
+  top: -25px;
 
   left: -10px;
 
@@ -144,7 +144,7 @@ header #headline {
 
   left: 15%;
 
-  top: 35%;
+  top: 25%;
 
 }
 
@@ -334,7 +334,7 @@ label {
 
   border-radius: 50px;
 
-  color: #f4f4f4;
+  color: white;
 
   transition: all 0.3s ease 0s;
 
