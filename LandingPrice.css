@@ -501,10 +501,10 @@ input:checked + .slider:before {
 }
 
 .info {
-	margin-top: 100px;
+	margin-top: 50px;
 }
 
 .container {
-	margin-top: 50px;
+	margin-top: 25px;
 }
 
