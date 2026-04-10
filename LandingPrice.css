@@ -4,7 +4,7 @@ header #headline, header #circular-bg {
 
   position: absolute;
 
-  top: 600px;
+  top: 400px;
 
   left: 800px;
 
@@ -46,7 +46,7 @@ header .info p {
 
   text-align: justify;
 
-  top: -500px;
+  top: -150px;
 
   left: -10px;
 
@@ -128,7 +128,7 @@ header img {
 
   width: 400px;
 
-  top:  250px;
+  top:  50px;
 
   left: 100px;
 
