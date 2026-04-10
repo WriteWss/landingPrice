@@ -128,7 +128,7 @@ header img {
 
   width: 400px;
 
-  top:  10px;
+  top:  25px;
 
   left: 100px;
 
@@ -500,4 +500,11 @@ input:checked + .slider:before {
 
 }
 
+.info {
+	margin-top: 500px;
+}
+
+.container {
+	margin-top: 200px;
+}
 
