@@ -46,7 +46,7 @@ header .info p {
 
   text-align: justify;
 
-  top: -100px;
+  top: 400px;
 
   left: -10px;
 
@@ -118,7 +118,7 @@ header #brand:before {
 
   border-radius: 60px;
 
-  z-index: 2;
+  z-index: -1;
 
 }
 
@@ -128,7 +128,7 @@ header img {
 
   width: 400px;
 
-  top:  0px;
+  top:  150px;
 
   left: 100px;
 
@@ -144,7 +144,7 @@ header #headline {
 
   left: 15%;
 
-  top: 25%;
+  top: 45%;
 
 }
 
@@ -188,7 +188,7 @@ header #headline:after {
 
 header button {
 
-  margin-top: 120vh;
+  margin-top: 600px;
 
   width: 140px;
 
