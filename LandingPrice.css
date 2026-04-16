@@ -216,7 +216,7 @@ header button {
 
   margin: 20px;
 
-  top: 150px;
+  top: -1050px;
 
   position: relative;
 
@@ -805,7 +805,7 @@ ol, ul {
 
   position: relative;
 
-  top: 100px;
+  top: -1000px;
 
 }
 
