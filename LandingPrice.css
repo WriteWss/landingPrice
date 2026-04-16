@@ -1,211 +1,212 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500,600,700");
 
-/* 1. Общие настройки */
-* {
-  box-sizing: border-box;
-  text-align: center;
-  text-decoration: none;
-  color: #fff;
-}
+    {
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    }
 
 body {
-  background-image: url("https://raw.githubusercontent.com/WriteWss/landingPrice/refs/heads/main/Windows%20XP.jpg");
-  font-family: "Roboto", sans-serif;
-  overflow: auto;
+background-image: url("https://raw.githubusercontent.com/WriteWss/landingPrice/refs/heads/main/Windows%20XP.jpg");
+font-family: "Roboto", sans-serif;
+overflow-x: hidden;
+background-attachment: fixed;
+background-size: cover;
+margin: 0;
 }
 
-/* 2. Шапка и Круг */
 header #headline, header #circular-bg {
-  position: absolute;
-  top: 200px;
-  left: 800px;
-  transform: translate(-50%, -50%);
+position: absolute;
+top: 600px;
+left: 50%;
+transform: translate(-50%, -50%);
 }
 
 header #circular-bg {
-  width: 85vw;
-  height: 85vw;
-  background: CadetBlue;
-  border-radius: 50%;
-  z-index: -10;
+width: 85vw;
+height: 85vw;
+background: CadetBlue;
+border-radius: 50%;
+z-index: -10;
 }
 
-/* 3. Навигация */
 header nav {
-  width: 1000px;
-  margin: 30px auto 0 auto;
+width: 100%;
+margin: 30px auto;
 }
 
 header nav a {
-  font-size: 18px;
-  margin-left: 20px;
-  position: relative;
-  color: white;
+font-size: 18px;
+margin: 0 15px;
+color: white;
 }
 
-/* 4. Заголовок и фото (PNG) */
 header #brand {
-  font-size: 100px;
-  font-weight: 700;
-  position: absolute;
-  left: 20vw;
-  top: 5%;
+font-size: 100px;
+font-weight: 700;
+position: absolute;
+left: 20vw;
+top: 10%;
 }
 
 header #brand:before {
-  content: "";
-  position: absolute;
-  width: 110%;
-  height: 60px;
-  background-image: url("https://raw.githubusercontent.com/WriteWss/landingPrice/refs/heads/main/Windows%20XP.jpg");
-  bottom: -10px;
-  left: -5%;
-  border-radius: 60px;
-  z-index: -1; /* Поставил в минус, чтобы не закрывал текст */
+content: "";
+position: absolute;
+width: 110%;
+height: 60px;
+background-image: url("https://raw.githubusercontent.com/WriteWss/landingPrice/refs/heads/main/Windows%20XP.jpg");
+bottom: -10px;
+left: -5%;
+border-radius: 60px;
+z-index: -1;
 }
 
 header img {
-  position: absolute;
-  width: 400px;
-  top: 150px; /* Опустили под заголовок */
-  left: 100px;
+position: absolute;
+width: 400px;
+top: 200px;
+left: 15vw;
 }
 
-/* 5. Слоган и описание */
 header #headline {
-  font-size: 30px;
-  line-height: 35px;
-  text-align: left;
-  left: 15%;
-  top: 45%;
-}
-
-header #headline:before {
-  content: "";
-  position: absolute;
-  width: 60px;
-  height: 4px;
-  background: #fff;
-  top: 22%;
-  left: -85%;
+font-size: 30px;
+line-height: 35px;
+text-align: left;
+left: 55%;
+top: 35%;
 }
 
 header #headline:after {
-  content: "The opportunity to get temporary access to the full wallpaper library";
-  position: absolute;
-  top: 120%;
-  left: -10%;
-  font-size: 20px;
-  letter-spacing: 1px;
+content: "The opportunity to get temporary access to the full wallpaper library";
+position: absolute;
+top: 120%;
+left: 0;
+font-size: 20px;
+width: 350px;
+letter-spacing: 1px;
 }
 
-/* 6. Кнопка и инфо-текст */
 header button {
-  margin-top: 600px; /* Сдвигаем ниже слогана */
-  width: 140px;
-  height: 50px;
-  background: #00cc99;
-  border: none;
-  font-weight: 600;
-  border-radius: 5px;
-  font-size: 15px;
+position: absolute;
+top: 580px;
+left: 55%;
+width: 140px;
+height: 50px;
+background: #00cc99;
+border: none;
+font-weight: 600;
+border-radius: 5px;
+cursor: pointer;
+}
+
+header .info {
+margin-top: 850px;
+padding: 0 15%;
 }
 
 header .info p {
-  position: relative;
-  margin: 0;
-  line-height: 1.6;
-  font-size: 15px;
-  color: white;
-  text-align: justify;
-  top: 400px; /* Чтобы не налезало на хедер */
-  left: -10px;
+position: relative;
+line-height: 1.6;
+font-size: 18px;
+text-align: justify;
+margin-bottom: 20px;
 }
 
-/* 7. Прайс-блок */
 .container {
-  width: 100%;
+width: 100%;
+margin-top: 100px;
 }
 
 .top {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-  top: 100px; /* Сдвигаем вниз, чтобы не налезало на текст */
+position: relative;
+margin-bottom: 60px;
 }
 
 .package-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
+display: flex;
+justify-content: center;
+gap: 30px;
+flex-wrap: wrap;
 }
 
 .packages {
-  margin: 20px;
-  top: 150px; /* Сдвигаем карточки вниз вслед за .top */
-  position: relative;
-  width: 300px;
-  padding-bottom: 1.5em;
-  background-color: CadetBlue;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 20px;
-  box-shadow: 0 19px 38px rgba(30, 35, 33, 1), 0 15px 12px rgba(30, 35, 33, 0.2);
-  color: #f4f4f4;
+width: 300px;
+padding: 2em 1em;
+background-color: CadetBlue;
+border-radius: 20px;
+box-shadow: 0 19px 38px rgba(0,0,0,0.4);
+display: flex;
+flex-direction: column;
+align-items: center;
+position: relative;
 }
 
-/* 8. Список и кнопки заказа */
+h1, h2 { font-size: 2.2em; }
+
 .list {
-  width: 80%;
-  padding: 0;
+width: 80%;
+padding: 0;
 }
 
 .list li {
-  font-size: 20px;
-  list-style: none;
-  border-bottom: 1px solid #f4f4f4;
-  padding: 10px;
+font-size: 18px;
+list-style: none;
+border-bottom: 1px solid rgba(255,255,255,0.3);
+padding: 10px;
+}
+
+.first {
+margin-top: 20px;
+border-top: 1px solid rgba(255,255,255,0.3);
 }
 
 .button {
-  padding: 10px 30px;
-  border-radius: 50px;
-  color: white;
-  transition: 0.3s;
-  background-color: blue;
-  box-shadow: 0 0 10px 0 blue inset, 0 0 20px 2px blue;
+display: inline-block;
+margin-top: 20px;
+padding: 10px 30px;
+border-radius: 50px;
+background-color: #00cc99;
+box-shadow: 0 0 10px 0 #00cc99 inset, 0 0 20px 2px #00cc99;
+transition: 0.3s;
 }
 
-/* 9. Переключатель (Switch) */
+.button:hover { transform: scale(1.1); }
+
 .switch {
-  position: relative;
-  top: -5px;
-  display: inline-block;
-  width: 60px;
-  height: 34px;
+position: relative;
+display: inline-block;
+width: 60px;
+height: 34px;
+vertical-align: middle;
 }
+
+.switch input { opacity: 0; width: 0; height: 0; }
 
 .slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background-color: #1e2321;
-  transition: 0.4s;
-  border-radius: 34px;
+position: absolute;
+cursor: pointer;
+top: 0; left: 0; right: 0; bottom: 0;
+background-color: #1e2321;
+transition: .4s;
+border-radius: 34px;
 }
 
 .slider:before {
-  position: absolute;
-  content: "";
-  height: 26px; width: 26px;
-  left: 4px; bottom: 4px;
-  background-color: white;
-  transition: 0.4s;
-  border-radius: 50%;
+position: absolute;
+content: "";
+height: 26px; width: 26px;
+left: 4px; bottom: 4px;
+background-color: white;
+transition: .4s;
+border-radius: 50%;
 }
 
 input:checked + .slider { background-color: #50bfe6; }
 input:checked + .slider:before { transform: translateX(26px); }
+
+footer {
+margin-top: 150px;
+padding: 40px;
+background: #1e2321;
+}
